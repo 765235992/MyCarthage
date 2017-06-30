@@ -15,6 +15,14 @@
 		FE1D7F311F06A3420028CCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1D7F2F1F06A3420028CCA8 /* LaunchScreen.storyboard */; };
 		FE1D7F3C1F06A3420028CCA8 /* TestCarthageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D7F3B1F06A3420028CCA8 /* TestCarthageDemoTests.m */; };
 		FE1D7F471F06A3420028CCA8 /* TestCarthageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D7F461F06A3420028CCA8 /* TestCarthageDemoUITests.m */; };
+		FE1D7F831F06A9100028CCA8 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D7F821F06A9100028CCA8 /* DJPeople.m */; };
+		FE1D7F921F06A95A0028CCA8 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */; };
+		FE1D7F991F06A95A0028CCA8 /* MyCarthageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D7F981F06A95A0028CCA8 /* MyCarthageFrameworkTests.m */; };
+		FE1D7F9E1F06A95A0028CCA8 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */; };
+		FE1D7F9F1F06A95A0028CCA8 /* MyCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE1D7FA71F06A9820028CCA8 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D7F821F06A9100028CCA8 /* DJPeople.m */; };
+		FE1D7FA81F06A98E0028CCA8 /* MyCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1D7F801F06A9000028CCA8 /* MyCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1D7FA91F06A9910028CCA8 /* DJPeople.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1D7F811F06A9100028CCA8 /* DJPeople.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,42 @@
 			remoteGlobalIDString = FE1D7F1D1F06A3420028CCA8;
 			remoteInfo = TestCarthageDemo;
 		};
+		FE1D7F931F06A95A0028CCA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1D7F161F06A3420028CCA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1D7F881F06A9590028CCA8;
+			remoteInfo = MyCarthageFramework;
+		};
+		FE1D7F951F06A95A0028CCA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1D7F161F06A3420028CCA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1D7F1D1F06A3420028CCA8;
+			remoteInfo = TestCarthageDemo;
+		};
+		FE1D7F9C1F06A95A0028CCA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1D7F161F06A3420028CCA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1D7F881F06A9590028CCA8;
+			remoteInfo = MyCarthageFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE1D7FA31F06A95A0028CCA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE1D7F9F1F06A95A0028CCA8 /* MyCarthage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FE1D7F1E1F06A3420028CCA8 /* TestCarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +94,14 @@
 		FE1D7F421F06A3420028CCA8 /* TestCarthageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCarthageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D7F461F06A3420028CCA8 /* TestCarthageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCarthageDemoUITests.m; sourceTree = "<group>"; };
 		FE1D7F481F06A3420028CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1D7F801F06A9000028CCA8 /* MyCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthage.h; sourceTree = "<group>"; };
+		FE1D7F811F06A9100028CCA8 /* DJPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPeople.h; sourceTree = "<group>"; };
+		FE1D7F821F06A9100028CCA8 /* DJPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPeople.m; sourceTree = "<group>"; };
+		FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1D7F8C1F06A9590028CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1D7F911F06A95A0028CCA8 /* MyCarthageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarthageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1D7F981F06A95A0028CCA8 /* MyCarthageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCarthageFrameworkTests.m; sourceTree = "<group>"; };
+		FE1D7F9A1F06A95A0028CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1D7F9E1F06A95A0028CCA8 /* MyCarthage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +127,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE1D7F851F06A9590028CCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1D7F8E1F06A95A0028CCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D7F921F06A95A0028CCA8 /* MyCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +151,8 @@
 				FE1D7F201F06A3420028CCA8 /* TestCarthageDemo */,
 				FE1D7F3A1F06A3420028CCA8 /* TestCarthageDemoTests */,
 				FE1D7F451F06A3420028CCA8 /* TestCarthageDemoUITests */,
+				FE1D7F8A1F06A9590028CCA8 /* MyCarthageFramework */,
+				FE1D7F971F06A95A0028CCA8 /* MyCarthageFrameworkTests */,
 				FE1D7F1F1F06A3420028CCA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +163,8 @@
 				FE1D7F1E1F06A3420028CCA8 /* TestCarthageDemo.app */,
 				FE1D7F371F06A3420028CCA8 /* TestCarthageDemoTests.xctest */,
 				FE1D7F421F06A3420028CCA8 /* TestCarthageDemoUITests.xctest */,
+				FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */,
+				FE1D7F911F06A95A0028CCA8 /* MyCarthageFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +172,7 @@
 		FE1D7F201F06A3420028CCA8 /* TestCarthageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FE1D7F7F1F06A8EE0028CCA8 /* MyCarthage */,
 				FE1D7F241F06A3420028CCA8 /* AppDelegate.h */,
 				FE1D7F251F06A3420028CCA8 /* AppDelegate.m */,
 				FE1D7F271F06A3420028CCA8 /* ViewController.h */,
@@ -140,7 +212,46 @@
 			path = TestCarthageDemoUITests;
 			sourceTree = "<group>";
 		};
+		FE1D7F7F1F06A8EE0028CCA8 /* MyCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D7F801F06A9000028CCA8 /* MyCarthage.h */,
+				FE1D7F811F06A9100028CCA8 /* DJPeople.h */,
+				FE1D7F821F06A9100028CCA8 /* DJPeople.m */,
+			);
+			path = MyCarthage;
+			sourceTree = "<group>";
+		};
+		FE1D7F8A1F06A9590028CCA8 /* MyCarthageFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D7F8C1F06A9590028CCA8 /* Info.plist */,
+			);
+			path = MyCarthageFramework;
+			sourceTree = "<group>";
+		};
+		FE1D7F971F06A95A0028CCA8 /* MyCarthageFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D7F981F06A95A0028CCA8 /* MyCarthageFrameworkTests.m */,
+				FE1D7F9A1F06A95A0028CCA8 /* Info.plist */,
+			);
+			path = MyCarthageFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE1D7F861F06A9590028CCA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D7FA81F06A98E0028CCA8 /* MyCarthage.h in Headers */,
+				FE1D7FA91F06A9910028CCA8 /* DJPeople.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FE1D7F1D1F06A3420028CCA8 /* TestCarthageDemo */ = {
@@ -150,10 +261,12 @@
 				FE1D7F1A1F06A3420028CCA8 /* Sources */,
 				FE1D7F1B1F06A3420028CCA8 /* Frameworks */,
 				FE1D7F1C1F06A3420028CCA8 /* Resources */,
+				FE1D7FA31F06A95A0028CCA8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FE1D7F9D1F06A95A0028CCA8 /* PBXTargetDependency */,
 			);
 			name = TestCarthageDemo;
 			productName = TestCarthageDemo;
@@ -196,6 +309,43 @@
 			productReference = FE1D7F421F06A3420028CCA8 /* TestCarthageDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FE1D7F881F06A9590028CCA8 /* MyCarthageFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1D7FA01F06A95A0028CCA8 /* Build configuration list for PBXNativeTarget "MyCarthageFramework" */;
+			buildPhases = (
+				FE1D7F841F06A9590028CCA8 /* Sources */,
+				FE1D7F851F06A9590028CCA8 /* Frameworks */,
+				FE1D7F861F06A9590028CCA8 /* Headers */,
+				FE1D7F871F06A9590028CCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCarthageFramework;
+			productName = MyCarthageFramework;
+			productReference = FE1D7F891F06A9590028CCA8 /* MyCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE1D7F901F06A95A0028CCA8 /* MyCarthageFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1D7FA41F06A95A0028CCA8 /* Build configuration list for PBXNativeTarget "MyCarthageFrameworkTests" */;
+			buildPhases = (
+				FE1D7F8D1F06A95A0028CCA8 /* Sources */,
+				FE1D7F8E1F06A95A0028CCA8 /* Frameworks */,
+				FE1D7F8F1F06A95A0028CCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1D7F941F06A95A0028CCA8 /* PBXTargetDependency */,
+				FE1D7F961F06A95A0028CCA8 /* PBXTargetDependency */,
+			);
+			name = MyCarthageFrameworkTests;
+			productName = MyCarthageFrameworkTests;
+			productReference = FE1D7F911F06A95A0028CCA8 /* MyCarthageFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +369,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = FE1D7F1D1F06A3420028CCA8;
 					};
+					FE1D7F881F06A9590028CCA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FE1D7F901F06A95A0028CCA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE1D7F1D1F06A3420028CCA8;
+					};
 				};
 			};
 			buildConfigurationList = FE1D7F191F06A3420028CCA8 /* Build configuration list for PBXProject "TestCarthageDemo" */;
@@ -237,6 +396,8 @@
 				FE1D7F1D1F06A3420028CCA8 /* TestCarthageDemo */,
 				FE1D7F361F06A3420028CCA8 /* TestCarthageDemoTests */,
 				FE1D7F411F06A3420028CCA8 /* TestCarthageDemoUITests */,
+				FE1D7F881F06A9590028CCA8 /* MyCarthageFramework */,
+				FE1D7F901F06A95A0028CCA8 /* MyCarthageFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +427,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE1D7F871F06A9590028CCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1D7F8F1F06A95A0028CCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1D7F831F06A9100028CCA8 /* DJPeople.m in Sources */,
 				FE1D7F291F06A3420028CCA8 /* ViewController.m in Sources */,
 				FE1D7F261F06A3420028CCA8 /* AppDelegate.m in Sources */,
 				FE1D7F231F06A3420028CCA8 /* main.m in Sources */,
@@ -295,6 +471,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE1D7F841F06A9590028CCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D7FA71F06A9820028CCA8 /* DJPeople.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1D7F8D1F06A95A0028CCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D7F991F06A95A0028CCA8 /* MyCarthageFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +499,21 @@
 			isa = PBXTargetDependency;
 			target = FE1D7F1D1F06A3420028CCA8 /* TestCarthageDemo */;
 			targetProxy = FE1D7F431F06A3420028CCA8 /* PBXContainerItemProxy */;
+		};
+		FE1D7F941F06A95A0028CCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1D7F881F06A9590028CCA8 /* MyCarthageFramework */;
+			targetProxy = FE1D7F931F06A95A0028CCA8 /* PBXContainerItemProxy */;
+		};
+		FE1D7F961F06A95A0028CCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1D7F1D1F06A3420028CCA8 /* TestCarthageDemo */;
+			targetProxy = FE1D7F951F06A95A0028CCA8 /* PBXContainerItemProxy */;
+		};
+		FE1D7F9D1F06A95A0028CCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1D7F881F06A9590028CCA8 /* MyCarthageFramework */;
+			targetProxy = FE1D7F9C1F06A95A0028CCA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,6 +697,70 @@
 			};
 			name = Release;
 		};
+		FE1D7FA11F06A95A0028CCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCarthageFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.MyCarthageFramework;
+				PRODUCT_MODULE_NAME = MyCarthage;
+				PRODUCT_NAME = MyCarthage;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE1D7FA21F06A95A0028CCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCarthageFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.MyCarthageFramework;
+				PRODUCT_MODULE_NAME = MyCarthage;
+				PRODUCT_NAME = MyCarthage;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE1D7FA51F06A95A0028CCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCarthageFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.MyCarthageFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCarthageDemo.app/TestCarthageDemo";
+			};
+			name = Debug;
+		};
+		FE1D7FA61F06A95A0028CCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCarthageFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.MyCarthageFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCarthageDemo.app/TestCarthageDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -509,6 +780,7 @@
 				FE1D7F4D1F06A3420028CCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1D7F4E1F06A3420028CCA8 /* Build configuration list for PBXNativeTarget "TestCarthageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,12 +789,30 @@
 				FE1D7F501F06A3420028CCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1D7F511F06A3420028CCA8 /* Build configuration list for PBXNativeTarget "TestCarthageDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE1D7F521F06A3420028CCA8 /* Debug */,
 				FE1D7F531F06A3420028CCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1D7FA01F06A95A0028CCA8 /* Build configuration list for PBXNativeTarget "MyCarthageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1D7FA11F06A95A0028CCA8 /* Debug */,
+				FE1D7FA21F06A95A0028CCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE1D7FA41F06A95A0028CCA8 /* Build configuration list for PBXNativeTarget "MyCarthageFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1D7FA51F06A95A0028CCA8 /* Debug */,
+				FE1D7FA61F06A95A0028CCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

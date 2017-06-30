@@ -48,6 +48,16 @@
                ReferencedContainer = "container:TestCarthageDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE1D7F901F06A95A0028CCA8"
+               BuildableName = "MyCarthageFrameworkTests.xctest"
+               BlueprintName = "MyCarthageFrameworkTests"
+               ReferencedContainer = "container:TestCarthageDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MyCarthageFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TestCarthageDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>FE1D7F411F06A3420028CCA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE1D7F881F06A9590028CCA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE1D7F901F06A95A0028CCA8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
